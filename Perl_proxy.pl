@@ -9,8 +9,9 @@ $port->baudrate(9600); #bitrate må stemme med arduino
 $port->parity("none");
 $port->stopbits(1);
 $number_of_chars_to_read=1;
+
 # commandX som her kjører eksterne bash script, kan kjøre direkte kommandoer
-$command0="sh script123.sh"; 
+$command0="sh /et/sted/script123.sh"; 
 $command1="sh script1337.sh";
 $command2="sh foo.sh";
 $command3="sh bar.sh";
